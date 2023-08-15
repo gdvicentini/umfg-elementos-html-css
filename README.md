@@ -20,7 +20,7 @@ No mesmo arquivo index.html desenvolvemos mais funções onde tratamos com maior
 
 ![seletores-css-associado-id](img/slide-seletores-associados-id.PNG)
 
-![seletores-css-associado-classe](img/slide-seletores-classe.PNG)
+![seletores-css-associado-classe](img/slide-seletores-classes.PNG)
 
 Também utilizamos de algumas ferramentas de formatações de texto conforme demonstrado na imagem abaixo:
 
