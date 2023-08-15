@@ -1,0 +1,102 @@
+/* Conteúdo do arquivo style.css */
+p {
+    font-weight: bold; /* Adicionando um novo estilo ao mesmo elemento */
+}
+
+
+.custom-text {
+    color: purple;
+    font-style: italic;
+}
+
+.highlight {
+    background-color: yellow;
+    padding: 5px;
+}
+
+
+#introducao {
+    font-style: italic;
+}
+
+h5.texto-vermelho {
+    color: red;
+}
+
+.texto-vermelho {
+    color: red;
+}
+
+/* Exemplo de tamanho de fonte usando unidades de medidas */
+.exemplo-fonte {
+    font-size: 20px; /* Tamanho em pixels */
+    font-weight: bold;
+}
+
+/* Exemplo de tamanho de fonte usando palavras-chave */
+.exemplo-palavra-chave {
+    font-size: larger; /* Tamanho maior */
+}
+
+/* Exemplo de fonte personalizada */
+.exemplo-fonte-familia {
+    font-family: "Arial", sans-serif; /* Fonte Arial ou uma fonte sans-serif genérica */
+}
+
+/* Exemplo de fonte em itálico */
+.exemplo-fonte-italico {
+    font-style: italic;
+}
+
+/* Exemplo de peso da fonte */
+.exemplo-peso-fonte {
+    font-weight: bold; /* Negrito */
+}
+
+.exemplo-valor-absoluto {
+    width: 10mm; /* Largura fixa em 10 milímetros */
+    margin-top: 5mm; /* Margem superior de 5 milímetros */
+    /* font-size: 2cm; Tamanho de fonte fixo em 2 centímetros */
+    /* padding: 1.5cm;Preenchimento de 1.5 centímetros */
+    /* width: 1.5in; Largura fixa em 1.5 polegadas */
+    /* margin-left: 0.25in; Margem esquerda de 0.25 polegadas */
+    /* font-size: 12pt; Tamanho de fonte fixo em 12 pontos */
+    /* line-height: 18pt; Altura de linha fixa em 18 pontos */
+}
+
+.exemplo-valor-relativo {
+    width: 50%; /* Largura de 50% do elemento pai */
+    margin-top: 5%; /* Margem superior de 5% do elemento pai */
+    /* font-size: 200%; Tamanho de fonte de 200% do elemento pai */
+    /* padding: 10%; Preenchimento de 10% do elemento pai */
+    /* width: 50vw; Largura de 50% da largura da janela */
+    /* margin-left: 10vw; Margem esquerda de 10% da largura da janela */
+    /* font-size: 2em; Tamanho de fonte de 2 vezes o tamanho da fonte do elemento pai */
+    /* line-height: 1.5em; Altura de linha de 1.5 vezes o tamanho da fonte do elemento pai */
+}
+
+.exemplo-texto {
+    text-align: center; /* Centraliza o texto */
+    text-decoration: underline; /* Sublinha o texto */
+    text-transform: uppercase; /* Transforma o texto em letras maiúsculas */
+    /* letter-spacing: 2px; Espaçamento entre caracteres */
+    /* line-height: 1.5; Altura de linha 1.5 vezes o tamanho da fonte */
+    /* text-indent: 20px; Identação de texto de 20 pixels */
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); Sombra no texto */
+}
+
+.exemplo-margin {
+    margin-top: 10px; /* Margem superior de 10 pixels */
+    /* margin-right: 20px; Margem da direita de 20 pixels */
+    /* margin-bottom: 15px; Margem inferior de 15 pixels */
+    /* margin-left: 25px; Margem da esquerda de 25 pixels */
+}
+
+.exemplo-padding {
+    padding-top: 5px; /* Margem interna superior de 5 pixels */
+    /* padding-right: 8px; Margem interna da direita de 8 pixels */
+    /* padding-bottom: 12px; Margem interna inferior de 12 pixels */
+    /* padding-left: 10px; Margem interna da esquerda de 10 pixels */
+}
+
+

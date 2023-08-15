@@ -17,10 +17,11 @@
             Aqui temos um exemplo de estilo incorporado, ou seja, o estilo está dentro do próprio documento em uma tag style.
         -->
         <style>
-            p {
+            /* p {
                 color: red;
-            }
+            } */
         </style>
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <!-- 
@@ -30,7 +31,7 @@
     <body>
 
         <!-- Utilização de tags de títulos h1, h2, ..., h6 e demonstrando seu comportamento em tela -->
-        <h1>Título Principal - Título 1</h1>
+        <h1>Título Principal - Título 1 - Elementos HTML</h1>
 
         <!-- Exemplo de texto puro sem nenhuma formatação ou utilização de tag -->
         Texto puro sem utilização de alguma tag.
@@ -43,13 +44,13 @@
 
         <hr /> <!-- tag orfã para realizar uma linha horizontal -->
 
-        <h2>Título h2</h2>
+        <h2>Título h2 - Teste de outros elementos HTML</h2>
         <!-- Exemplo de utilização de tags de formatação de texto. Verifique o comportamento na sua tela do website -->
         <p>Texto <em>feito</em> apenas para <strong>teste</strong> de outros elementos.</p>
 
         <hr />
 
-        <h3>Título h3</h3>
+        <h3>Título h3 - Estilo inline</h3>
         <!-- 
             Exemplo de utilização de estilo inline, ou seja, o estilo está dentro da própria tag.
             Ela é a que tem maior prioridade entre as três formas de utilização de estilo.
@@ -60,10 +61,43 @@
         <!-- Utilização de tag span que demonstra seu comportamento inline ao agrupar um bloco de texto -->
         <p>Texto <span style="color: green;">para</span> teste de mudança de cor</p>
 
-        <h4>Título h4</h4>
+        <hr />
+        <h4>Título h4 - Estilo incorporado e arquivo importado</h4>
 
-        <h5>Título h5</h5>
+        <p>Exemplo de estilo em arquivo externo.</p>
+        <p class="custom-text">Texto com classe custom-text.</p>
+        <p class="highlight">Texto com classe highlight.</p>
 
-        <h6>Título h6</h6>
+        <hr />
+        <h5>Título h5 - Tipos Seletores, Fontes, Valores e Estilos de Textos</h5>
+
+        <p id="introducao">Este é um texto em itálico usando um ID.</p> <!-- Exemplo com seletores de ID -->
+        <h5 class="texto-vermelho">Este é um título em vermelho associado a uma classe.</h5> <!-- Exemplo com seletores de classes associados -->
+        <div class="texto-vermelho">Este é um div em vermelho não associado a uma classe.</div> <!-- Exemplo com seletores de classes não associados -->
+        
+        <br />
+
+        <div class="exemplo-fonte texto-vermelho">Fontes:</div>
+        <p class="exemplo-fonte">Este é um exemplo de tamanho de fonte usando pixels.</p>
+        <p class="exemplo-palavra-chave">Este é um exemplo de tamanho de fonte usando palavras-chave.</p>
+        <p class="exemplo-fonte-familia">Este é um exemplo de fonte personalizada.</p>
+        <p class="exemplo-fonte-italico">Este é um exemplo de fonte em itálico.</p>
+        <p class="exemplo-peso-fonte">Este é um exemplo de peso da fonte.</p>
+
+        <div class="exemplo-fonte texto-vermelho">Valores absolutos:</div>
+        <p class="exemplo-valor-absoluto">Este é um exemplo de valor absoluto.</p>
+
+        <div class="exemplo-fonte texto-vermelho">Valores relativos:</div>
+        <p class="exemplo-valor-relativo">Este é um exemplo de valor relativo.</p>
+
+        <div class="exemplo-fonte texto-vermelho">Estilos de texto:</div>
+        <p class="exemplo-estilo-texto">Este é um exemplo de estilo de texto.</p>
+
+        <hr />
+        <h6>Título h6 - Margin e Padding</h6>
+        
+        <div class="exemplo-margin">Este é um exemplo de margin.</div>
+        <div class="exemplo-padding">Este é um exemplo de padding.</div>
+
     </body>
 </html>
